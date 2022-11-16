@@ -1,0 +1,60 @@
+.class1.class2{
+    text-align: center;
+}
+
+.class1 #id1{
+    color: green;
+}
+
+div.class2{
+    color: red;
+}
+
+a , span {
+    color: blueviolet;
+}
+
+div > p{
+    font-weight: bold;
+}
+
+div + a{
+    text-decoration: none;
+}
+
+[title~=house]{
+    width: 400px;
+    height: 400px;
+}
+
+p[class$="text"]{
+    color: black;
+    font-style: italic;
+}
+
+
+a:active{
+    background-color: red;
+}
+
+input:checked{
+    width: 50px;
+    height: 100px;
+}
+
+input[type=number]:disabled{
+    background-color: gray;
+}
+
+#parent_div :first-child{
+    color: red;
+}
+
+#parent_div :last-child:hover{
+    color: red;
+}
+
+
+a:visited{
+    color: goldenrod;
+}
